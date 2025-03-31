@@ -97,7 +97,7 @@ export default function QuizPage() {
 
   return (
     <div className="min-h-screen p-6 bg-black flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-4">{quizData.title} - {"Pregunta " + (currentQuestion + 1)} de {quizData?.questions.length}</h1>
+      <h1 className="text-2xl font-bold mb-4 text-white">{quizData.title} - {"Pregunta " + (currentQuestion + 1)} de {quizData?.questions.length}</h1>
       <div className="w-full max-w-md bg-white p-4 rounded-lg shadow-md text-black">
         <p className="font-semibold">{question.question}</p>
 
