@@ -1,0 +1,56 @@
+{
+    "title": "Quiz de Desarrollo",
+    "questions": [
+      {
+        "question": "Son aquellos que poseen sentencias similares al lenguaje humano",
+        "options": ["Lenguaje de alto nivel", "Lenguaje maquina", "Lenguaje compilador", "Lenguaje de bajo nivel"],
+        "correct": 0
+      },
+      {
+        "question": "Son aquellos cuyas sentencias están formadas por abreviaturas de palabras en idioma ingles.",
+        "options": ["Lenguaje de bajo nivel", "Lenguaje maquina", "Lenguaje ensamblador", "Lenguaje compilador"],
+        "correct": 2
+      },
+      {
+        "question": "Lenguajes de programación como Prolog, Mercury y Oz son ejemplos de este tipo de paradigma.",
+        "options": ["Imperativo", "Logico", "Orientado a objetos", "Lineal"],
+        "correct": 1
+      },
+      {
+        "question": "El principal inconveniente de este método de programación es que se obtiene un solo bloque de programa, que al hacerse demasiado grande resulta problemático su manejo.",
+        "options": ["Programación orientada a objetos", "Programación lineal", "Programación imperativa", "Programación estructurada"],
+        "correct": 3
+      },
+      {
+        "question": "Son el conjunto de reglas, herramientas y condiciones que permiten crear herramientas o aplicaciones dentro de una computadora",
+        "options": ["Lenguaje de bajo nivel", "Lenguaje de programacion", "Lenguaje maquina", "Lenguaje compilador"],
+        "correct": 1
+      },
+      {
+        "question": "Las instrucciones en este tipo de lenguaje se componen de la unidad de memoria mas pequeña que existe, llamada bit.",
+        "options": ["Lenguaje ensamblador", "Lenguaje maquina", "Lenguaje de bajo nivel", "Lenguaje compilador"],
+        "correct": 1
+      },
+      {
+        "question": "Definición de procesos, tipos de datos, chequeo de tiempo de compilación, cambio de estado de variables y pasos de ejecución de un procesos son elementos que conforman este paradigma.",
+        "options": ["Paradigma orientado a objetos", "Paradigma imperativo", "Paradigma funcional", "Paradigma logico"],
+        "correct": 1
+      },
+      {
+        "question": "Contenedor de un tipo de dato asociado a un objeto, que hace los datos visibles fuera de este y cuyo valor puede ser alterado por la ejecución de algún método.",
+        "options": ["Atributo", "Estado", "Evento", "Comportamiento"],
+        "correct": 0
+      },
+      {
+        "question": "Entidad provista de un conjunto de propiedades y de comportamientos. Corresponden a los objetos reales del mundo o a objetos internos del programa.",
+        "options": ["Metodo", "Clase", "Objeto", "Herencia"],
+        "correct": 2
+      },
+      {
+        "question": "Desde el punto de vista del comportamiento, es lo que un objeto puede hacer.",
+        "options": ["Metodo", "Herencia", "Polimorfismo", "Clase"],
+        "correct": 0
+      }
+    ]
+  }
+  

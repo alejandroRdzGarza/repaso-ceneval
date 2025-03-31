@@ -1,0 +1,50 @@
+{
+  "title": "Quiz de Diseño de Software",
+  "questions": [
+    {
+      "question": "Para representar un proceso complicado usarías...",
+      "options": ["Un diagrama de actividad", "Un diagrama de Venn", "Un diagrama de clases", "Un diagrama de casos de uso"],
+      "correct": 0
+    },
+    {
+      "question": "Una vez que las clases y los atributos han sido identificados y colocados en un diagrama, ¿la siguiente etapa es agregar..?",
+      "options": ["Operaciones", "Actores", "Asociaciones", "Multiplicidades"],
+      "correct": 0
+    },
+    {
+      "question": "Para un recepcionista de restaurante identifique el caso de uso más válido.",
+      "options": ["Contestar el teléfono", "Proveer un id", "Hacer una reserva", "Una comida"],
+      "correct": 2
+    },
+    {
+      "question": "Los diagramas de clase son usados para modelar...",
+      "options": ["Algoritmos", "Requerimientos funcionales", "Dominios", "Secuencias de actividades"],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuál de los siguientes es un caso de uso válido?",
+      "options": ["Reservar habitación", "Número de habitación", "Sistema de reserva", "Habitación"],
+      "correct": 0
+    },
+    {
+      "question": "¿En qué etapas del ciclo de vida de desarrollo de software se usan los diagramas UML?",
+      "options": ["Producción y Mantenimiento", "Programación y Pruebas", "Análisis y Diseño"],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuál es la funcionalidad de los casos de uso?",
+      "options": ["Definen las clases en el sistema", "Son usados para definir modelos de procesos de negocio", "Especifican el comportamiento deseado del sistema"],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuál es la funcionalidad de los diagramas de actividades?",
+      "options": ["Definen las clases en el sistema", "Especifican el comportamiento deseado del sistema", "Son usados para definir modelos de procesos de negocio"],
+      "correct": 2
+    },
+    {
+      "question": "¿Qué representan los actores en los diagramas de caso de uso?",
+      "options": ["Modela una entidad externa que se comunica con el sistema", "Marca el inicio de la actividad", "Representa una actividad o tarea del caso de uso"],
+      "correct": 0
+    }
+  ]
+}

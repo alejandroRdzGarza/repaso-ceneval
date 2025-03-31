@@ -1,0 +1,283 @@
+{
+    "title": "Ingeniería de Requerimientos Quiz",
+    "questions": [
+      {
+        "question": "¿Cuál de las siguientes es una buena práctica (best practice) para la documentación de productos de software en un entorno de desarrollo ágil?",
+        "options": [
+          "Documentar solo si se exige por regulación",
+          "No documentar",
+          "Documentar todos los artefactos posibles",
+          "Documentar solo lo necesario"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Es necesario contar con los requisitos (requerimientos) antes de diseñar una solución de software. ¿Qué hacer en caso de que un requisito no sea claro o no se entienda?",
+        "options": [
+          "Descartar el requisito",
+          "Hablar con los stakeholders para aclarar el requisito",
+          "Dejar el requisito pendiente y bajarle la prioridad",
+          "Desarrollarlo lo mejor posible con lo que se haya entendido"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Es un ejemplo de elicitation:",
+        "options": [
+          "Buscar en Internet más detalles sobre los requisitos que enviaron los stakeholders",
+          "Reunir a los stakeholders y preguntarles si alguien tiene algo qué decir sobre los requisitos",
+          "Hacer preguntas activamente a los stakeholders hasta obtener la mayor información sobre los requisitos",
+          "Enviar un formulario a los stakeholders para que especifiquen los requisitos"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Antes de ir con un stakeholder para hacerle preguntas sobre los requisitos, es recomendable preparar un _______ para ayudarnos a formular ideas sobre cómo obtener la información.",
+        "options": [
+          "formato",
+          "interrogatorio",
+          "café",
+          "plan"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Es un ejemplo de requisito no-funcional:",
+        "options": [
+          "El administrador debe poder generar facturas solo durante el mesa de la compra",
+          "El sistema debe soportar una concurrencia de 500 sesiones simultáneas",
+          "El project manager debe mantener actualizado el plan de trabajo del proyecto",
+          "Un usuario debe poder cambiar su contraseña desde el panel de administración"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Es una versión del producto que, aunque no está desarrollada completamente (por ejemplo, no tiene base de datos), es interactiva y puede dar una idea muy precisa de su aspecto y funcionamiento final.",
+        "options": [
+          "Wireframe",
+          "Prototype",
+          "MVP",
+          "Mock-up"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Es una representación visual que contiene solo el aspecto básico de una aplicación, sin incluir elementos de diseño, usada como un primer modelo para comenzar a diseñar la funcionalidad del producto.",
+        "options": [
+          "MVP",
+          "Mock-up",
+          "Prototype",
+          "Wireframe"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Un escenario de caso de uso es muy parecido a:",
+        "options": [
+          "Requisito no-funcional",
+          "Mock-up",
+          "Matriz de requisitos",
+          "Historias de usuario en Scrum"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Una de las siguientes opciones NO ES una característica de los requisitos:",
+        "options": [
+          "Son medibles y limitados por las restricciones",
+          "Son opcionales y pueden descartarse si no son claramente comprensibles",
+          "Deben enfocarse en resolver el problema",
+          "Deben poder ser verificados"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Es un ejemplo de requisito funcional:",
+        "options": [
+          "Cuando el usuario proporcione una contraseña incorrecta, el sistema deberá pedirle que lo intente nuevamente hasta un máximo de tres intentos equivocados",
+          "Entrar al sistema",
+          "Hacer una página de login",
+          "Paso 1: El usuario captura su contraseña"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Un requisito funcional es",
+        "options": [
+          "Una caracteristica del sistema.",
+          "Una funcionalidad del sistema.",
+          "Una funcionalidad deseable."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Un requisito no funcional es:",
+        "options": [
+          "Una funcionalidad deseable.",
+          "Una funcionalidad del sistema.",
+          "Una caracteristica del sistema."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Cuáles de los siguientes son restricciones de diseño.",
+        "options": [
+          "El sistema tardara un máximo de 5 segundos en responder.",
+          "Delimitar formato de texto de entrada al sistema.",
+          "Solicitar permiso para acceder a la cámara.",
+          "Acceder a APIs.",
+          "Enviar mensaje a contacto.",
+          "El sistema se va a desarrollar en React/Angular.",
+          "Manera en cómo se van a guardar los datos en la BD.",
+          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
+          "Las contraseñas se guardan con una encriptación de 512bits.",
+          "Comprimir archivo."
+        ],
+        "correct": [5, 7]
+      },
+      {
+        "question": "Cuáles de los siguientes son requisitos de datos lógicos.",
+        "options": [
+          "El sistema tardara un máximo de 5 segundos en responder.",
+          "Solicitar permiso para acceder a la cámara.",
+          "Las contraseñas se guardan con una encriptación de 512bits.",
+          "Manera en cómo se van a guardar los datos en la BD.",
+          "Acceder a APIs.",
+          "El sistema se va a desarrollar en React/Angular.",
+          "Delimitar formato de texto de entrada al sistema.",
+          "Enviar mensaje a contacto.",
+          "Comprimir archivo.",
+          "La interfaz de usuario se va a desarrollar utilizando Material Design."
+        ],
+        "correct": [2, 3, 6, 7]
+      },
+      {
+        "question": "Cuáles de los siguientes son requisitos de interfaces externas.",
+        "options": [
+          "Acceder a APIs.",
+          "Solicitar permiso para acceder a la cámara.",
+          "Delimitar formato de texto de entrada al sistema.",
+          "Enviar mensaje a contacto.",
+          "Comprimir archivo.",
+          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
+          "Las contraseñas se guardan con una encriptación de 512bits.",
+          "Manera en cómo se van a guardar los datos en la BD.",
+          "El sistema tardara un máximo de 5 segundos en responder.",
+          "El sistema se va a desarrollar en React/Angular."
+        ],
+        "correct": [0, 1, 3, 4]
+      },
+      {
+        "question": "Cuáles de los siguientes son requisitos no funcionales.",
+        "options": [
+          "Delimitar formato de texto de entrada al sistema.",
+          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
+          "Enviar mensaje a contacto.",
+          "El sistema se va a desarrollar en React/Angular.",
+          "Comprimir archivo.",
+          "Las contraseñas se guardan con una encriptación de 512bits.",
+          "Solicitar permiso para acceder a la cámara.",
+          "Manera en cómo se van a guardar los datos en la BD.",
+          "Acceder a APIs.",
+          "El sistema tardara un máximo de 5 segundos en responder."
+        ],
+        "correct": [1, 2, 3, 6, 9]
+      },
+      {
+        "question": "Cuáles de los siguientes son requisitos funcionales.",
+        "options": [
+          "Comprimir archivo.",
+          "El sistema tardara un máximo de 5 segundos en responder.",
+          "Delimitar formato de texto de entrada al sistema.",
+          "Enviar mensaje a contacto.",
+          "Solicitar permiso para acceder a la cámara.",
+          "Acceder a APIs.",
+          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
+          "El sistema se va a desarrollar en React/Angular.",
+          "Las contraseñas se guardan con una encriptación de 512bits.",
+          "Manera en cómo se van a guardar los datos en la BD."
+        ],
+        "correct": [0, 3, 4, 5]
+      },
+      {
+        "question": "Los requisitos no funcionales se clasifican en:",
+        "options": [
+          "Indispensables y deseables.",
+          "Producto, organizacionales y externos.",
+          "De seguridad, rendimiento y usabilidad."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Cuáles de las siguientes medidas podemos usar para medir la rapidez del sistema.",
+        "options": [
+          "Número de cuadros de ayuda.",
+          "Tiempo de respuesta.",
+          "Tiempo entre fallas.",
+          "Bytes.",
+          "Tiempo de formación (entrenamiento).",
+          "Disponibilidad.",
+          "Operaciones por segundo."
+        ],
+        "correct": [1, 6]
+      },
+      {
+        "question": "Cuáles de las siguientes medidas podemos usar para medir la fiabilidad del sistema.",
+        "options": [
+          "Disponibilidad.",
+          "Tiempo de respuesta.",
+          "Tiempo entre fallas.",
+          "Bytes.",
+          "Tiempo de formación (entrenamiento).",
+          "Operaciones por segundo.",
+          "Número de cuadros de ayuda."
+        ],
+        "correct": [0, 2]
+      },
+      {
+        "question": "Cuáles de las siguientes medidas podemos usar para medir el tamaño del sistema.",
+        "options": [
+          "Operaciones por segundo.",
+          "Tiempo entre fallas.",
+          "Bytes.",
+          "Tiempo de respuesta.",
+          "Número de cuadros de ayuda.",
+          "Tiempo de formación (entrenamiento).",
+          "Disponibilidad."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Cuáles de las siguientes medidas podemos usar para medir la facilidad de uso del sistema.",
+        "options": [
+          "Bytes.",
+          "Disponibilidad.",
+          "Número de cuadros de ayuda.",
+          "Operaciones por segundo.",
+          "Tiempo entre fallas.",
+          "Tiempo de formación (entrenamiento).",
+          "Tiempo de respuesta."
+        ],
+        "correct": [2, 5]
+      },
+      {
+        "question": "Cuáles de los siguientes si son requisitos no funcionales.",
+        "options": [
+          "El sistema funciona de la misma manera en Linux, Windows y Mac.",
+          "El sistema puede procesar archivos de 10mb en menos de 5 minutos.",
+          "El sistema no descargara el archivo si está protegido por derechos de autor."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Cuál de los siguientes requisitos no funcionales está especificado de manera correcta.",
+        "options": [
+          "El sistema será muy rápido y seguro.",
+          "El sistema podrá trabajar con diferentes tipos de archivo de video.",
+          "Un usuario promedio tardara 2 horas en aprender toda la funcionalidad del sistema, cometiendo como máximo 3 errores por hora."
+        ],
+        "correct": 2
+      }
+    ]
+  }
+  

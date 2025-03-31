@@ -1,0 +1,671 @@
+{
+    "title": "Evaluación Diagnóstica",
+    "questions": [
+      {
+        "question": "Si hay un método abstracto en una clase:",
+        "options": [
+            " La clase debe ser una clase pública ", 
+            " La clase debe ser una clase privada ", 
+            " La clase debe ser una clase abstracta ", 
+            "La clase será una clase genérica "],
+        "correct": 2
+      },
+      {
+        "question": "La encapsulación en un lenguaje orientado a objetos se refiere a:",
+        "options": [
+            "agrupar todos los mensajes que recibe un objeto", 
+            "definir la forma en que los objetos responden a los mensajes", 
+            "guardar en un solo lugar las características y los procedimientos a los que puede responder un objeto ", 
+            "guardar objetos similares en una clase "],
+        "correct": 2
+      },
+      {
+        "question": "Elige la opción que contiene el valor inicial para contador con el que el ciclo no se ejecuta ninguna vez.",
+        "options": [
+            "14", 
+            "13", 
+            "10", 
+            "8"],
+        "correct": 3,
+        "image" : "/images/evaluacion-diagnostica/3.png"
+      },
+      {
+        "question": "",
+        "options": [
+            "sumatoria += calculo(x, n) ", 
+            "sumatoria += calculo(x, k) ", 
+            "sumatoria += calculo(x, i) ", 
+            "sumatoria = calculo(x, k) "],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/4.png"
+      },
+      {
+        "question": "Dado el siguiente grafo no dirigido, indique cuál de los siguientes recorridos NO es válido, siguiendo estrictamente el orden alfabético",
+        "options": [
+            "Primero en anchura, partiendo de E (breadth first): E, C, D, F, A, B, G ", 
+            "Primero en anchura, partiendo de G (breadth first): G, F, E, C, A, B, D ", 
+            "Primero en profundidad, partiendo de F (depth first): F, E, C, A, B, D, G", 
+            " Primero en profundidad, partiendo de A (depth first): A, B, D, C, E, F, G "],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/5.png"
+      },
+      {
+        "question": "Dado el siguiente grafo, ¿cuál opción representa el orden en que son visitados los nodos en depth - first?",
+        "options": [
+            "0 1 4 3 2 5 ", 
+            "0 1 2 4 3 5 ", 
+            "0 1 2 3 4 5 ", 
+            "0 1 4 2 3 5 "],
+        "correct": 3,
+        "image" : "/images/evaluacion-diagnostica/6.png"
+      },
+      {
+        "question": "Sobre una tabla hash de 10 posiciones se insertaron las siguientes llaves en el orden que se muestran: 59, 10, 31, 88, 8, 28, 15. Si la función de hashing que se utilizó es h(n) = n % 10 y se empleó como estrategia de manejo de colisiones la cuadrática, ¿en qué posición queda guardado el valor de 28?",
+        "options": ["7", "4", "6", "8"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuál es el Orden del siguiente algoritmo? (Asumiendo que la instrucción es de O(1))",
+        "options": [
+          "O(n)",
+          "O(n^2)",
+          "O(n log2 n)",
+          "O(1)"
+        ],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/8.png"
+      },
+      {
+        "question": "Considera el método mystery que se encuentra a continuación, procesa una lista encadenada típica definida por el usuario. ¿Cuál de las siguientes opciones representa lo que el método despliega en pantalla?",
+        "options": [
+          "No despliega nada",
+          "Los datos impares de la lista",
+          "Todos los datos de la lista",
+          "Los datos pares de la lista"
+        ],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/9.png"
+      },
+      {
+        "question": "¿Cuál es el Orden del siguiente algoritmo? (Asumiendo que la instrucción es de O(1))",
+        "options": [
+          "O(n)",
+          "O(1)",
+          "O(log2 n)",
+          "O(n^n)"
+        ],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/10.png"
+      },
+      {
+        "question": "En programación funcional, ¿qué nombre recibe una función capaz de devolver una función como resultado de su ejecución?",
+        "options": [
+          "Función pura",
+          "Función currificada",
+          "Función recursiva",
+          "Función de orden superior"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "¿Qué conclusión 'se sigue lógicamente' de las premisas mostradas a continuación? 1.Los precios son altos. 2.Si los precios son altos, se deben vender bonos. 3.Si las tasas de interés no son bajas, no se deben vender bonos.",
+        "options": [
+          "Los precios son bajos",
+          "Las tasas de interés son bajas",
+          "No se deben vender bonos",
+          "Las tasas de interés son altas"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "De las siguientes definiciones de strings en un lenguaje binario, los que NO pueden ser descritos con una expresión regular son todos los strings:",
+        "options": [
+          "Con más unos que ceros",
+          "Cuyo número de ceros sea múltiplo de cinco",
+          "Que no tengan unos consecutivos",
+          "Con un número par de ceros"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "",
+        "options": [
+          "x = 3",
+          "x = 1",
+          "x = 5",
+          "x = 0"
+        ],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/14.png"
+      },
+      {
+        "question": "El proceso de compilación comprende varias fases entre las cuales se encuentra el Análisis Semántico. Seleccione la alternativa que mejor describe las funciones que se llevan a cabo en esta fase.",
+        "options": [
+          "Revisión de la estructura en la cual se presentan las palabras del lenguaje",
+          "Verificación de que las palabras utilizadas pertenecen al lenguaje y comprobación de tipos",
+          "Análisis del código intermedio para generar un código óptimo",
+          "Comprobación de tipos y verificación de la declaración de procedimientos y funciones"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Se tiene un sistema de fila con un procesador en el que el tiempo entre llegadas tiene un promedio de 1/6 minutos. La capacidad del sistema es de 8 tareas por minuto. ¿Cuál es el número promedio de tareas en el sistema?",
+        "options": ["1 tarea", "6 tareas", "9 tareas", "3 tareas"],
+        "correct": 3
+      },
+      {
+        "question": "Una compañía utiliza un sistema de procesamiento de documentos. El procesamiento se lleva a cabo en dos fases. En la primera se realiza una conversión en la que el documento se pasa de HTML a XML. La segunda fase consiste en crear una tabla de referencias cruzadas. Cada fase tiene su propio procesador con cola. La conversión por documento se lleva a cabo en promedio en 3 segundos, mientras que la realización de las referencias se realiza en 2 segundos. ¿Cuál es el tiempo de espera promedio?",
+        "options": ["13 segundos", "0 segundos", "3 segundos", "9 segundos"],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/17.png"
+      },
+      {
+        "question": "¿Cuál es el principio fundamental de una red neuronal convolucional (CNN)?",
+        "options": [
+          "Una CNN utiliza un modelo de jerarquización de las salidas de cada neurona para encontrar grupos de características locales para cada capa de la red",
+          "Una CNN realiza diferentes iteraciones creando jerarquías en las distintas capas de una red para darle mayor peso a características específicas del modelo",
+          "Una CNN intercambia las entradas entre cada neurona, generando nuevas capas en la red con el objetivo de aumentar la precisión del modelo",
+          "Una CNN utiliza una matriz de especialización para encontrar características especificas en grupos de entrada más pequeños"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Aplicar el algoritmo A* al siguiente grafo si el estado inicial es P y la meta es N. Los sucesores de un nodo se generan de izquierda a derecha según lo que se observa en el grafo. Considera que las trayectorias entre un nodo y sus sucesores directos son bidireccionales de acuerdo al sentido de las flechas. Las cantidades que aparecen en los arcos del grafo representan los costos de desplazamiento entre un nodo y otro. La función de evaluación heurística se detalla a continuación del grafo. Junto con la solución, indica cuántos nodos fueron generados durante el proceso de búsqueda y cuantos de ellos son redundantes. Recuerda que un nodo es redundante cuando ya aparece previamente con un costo menor en otra trayectoria.",
+        "options": [
+          "P-A-L-G-N con 8 nodos generados y uno redundante",
+          "P-A-L-E-R-N con 6 nodos generados y 0 redundantes",
+          "P-A-L-G-N con 10 nodos generados y 2 redundantes",
+          "P-A-R-G-N con 8 nodos generados y 2 redundantes"
+        ],
+        "correct": 1,
+        "image" : "/images/evaluacion-diagnostica/19.png"
+      },
+      {
+        "question": "¿Cuál es la diferencia entre aprendizaje supervisado y no supervisado?",
+        "options": [
+          "En el aprendizaje supervisado se evalúa el modelo en cada iteración para mejorar los resultados. Mientras que en el no supervisado el modelo se ajusta en un número de iteraciones predeterminadas",
+          "El aprendizaje supervisado utiliza una validación predeterminada para evaluar al modelo. En el aprendizaje no supervisado no existe función de evaluación",
+          "En el aprendizaje supervisado se recompensa al modelo con cada observación correcta y se castiga al ser incorrecta. Mientras que en el no supervisado el aprendizaje no hay recompensa alguna",
+          "En el aprendizaje supervisado existe un set de datos de entrenamiento o conocimiento “a priori”. Mientras que en el no supervisado el modelo aprende de las observación del set de datos"
+        ],
+        "correct": 3
+      },
+      {
+        "questionNumber": 21,
+        "question": "En la siguiente tabla se muestran 8 procesos que serán asignados a dos procesadores idénticos, el tiempo en el cual los procesos están disponibles y el tiempo requerido para su procesamiento.",
+        "image": "so1.png",
+        "options": [
+          "15",
+          "18",
+          "17",
+          "16"
+        ],
+        "correctAnswer": 3,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 22,
+        "question": "Una computadora tiene 4 marcos de página de memoria RAM. El tiempo cuando se cargó una determinada página en memoria real, el tiempo de la última referencia a esa página (última vez que se utilizó), ambos desde la última vez que cada página se cargó en memoria real y los bits de referencia (0 si no ha sido referenciada, 1 si ya fue referenciada) y de modificación (0 no se ha modificado, 1 ya se modificó) para cada marco de página se muestra a continuación:",
+        "image": "so2.png",
+        "options": [
+          "FIFO 1 LRU 2",
+          "FIFO 2 LRU 1",
+          "FIFO 1 LRU 0",
+          "FIFO 3 LRU 0"
+        ],
+        "correctAnswer": 1,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 23,
+        "question": "Considere un sistema computacional que maneja memoria virtual el cual tiene espacio para cuatro páginas en memoria real. Determine la cantidad de intercambios de páginas en memoria real a través de la estrategia LRU de acuerdo con las siguientes solicitudes:",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "correctAnswer": 3,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 24,
+        "question": "Se tiene la siguiente información sobre las peticiones que se harán a disco.",
+        "pistas": "5, 2, 8, 19, 1, 6, 11, 0. (Todas las peticiones son realizadas en tiempo t=0).",
+        "image": "so3.png",
+        "options": [
+          "Pistas recorridas = 29",
+          "Pistas recorridas = 30",
+          "Pistas recorridas = 31",
+          "Pistas recorridas = 28"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "questionNumber": 25,
+        "question": "Registro dentro del CPU que accesa directamente el bus de direcciones",
+        "options": [
+          "ALU Arithmetic and Logic Unit",
+          "PC Program Counter",
+          "MBR Memory Buffer Register",
+          "MAR Memory Access Register"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "questionNumber": 26,
+        "question": "Una memoria de 1 KB, ¿Cuántas líneas de direccionamiento se manejan en el bus de direcciones?",
+        "options": [
+          "2 líneas de direccionamiento",
+          "1024 líneas de direccionamiento",
+          "10 líneas de direccionamiento",
+          "8 líneas de direccionamiento"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "questionNumber": 27,
+        "question": "¿Cuál es la secuencia de segmentos TCP intercambiados con sus banderas para hacer lo que se llama Conexión o 3-Way Handshaking?",
+        "options": [
+          "ACK / SYN, ACK / SYN",
+          "FIN / SYN, ACK / SYN",
+          "SYN / SYN, ACK / FIN",
+          "SYN / SYN, ACK / ACK"
+        ],
+        "correctAnswer": 3,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 28,
+        "question": "¿Cuántas subredes identificas en la siguiente topología?",
+        "image": "red3.png",
+        "options": [
+          "2",
+          "6",
+          "3",
+          "8"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "questionNumber": 29,
+        "question": "Selecciona la respuesta que es correcta respecto a los protocolos IPv4 e IPv6",
+        "options": [
+          "El campo de dirección de IPv4 es de 2 bytes y el campo de dirección de IPv6 es de 8 bytes",
+          "El campo de dirección de IPv4 es de 8 bytes y el campo de dirección de IPv6 es de 16 bytes",
+          "El campo de dirección de IPv4 es de 16 bytes y el campo de dirección de IPv6 es de 32 bytes",
+          "El campo de dirección de IPv4 es de 4 bytes y el campo de dirección de IPv6 es de 16 bytes"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "questionNumber": 30,
+        "question": "Es un protocolo que antecede a la petición de HTTP y se encarga de encontrar la dirección IP que corresponde al nombre de un sitio de internet.",
+        "options": [
+          "DNS",
+          "DHCP",
+          "SMTP",
+          "TCP"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "questionNumber": 31,
+        "question": "¿Cuál es la dirección y máscara de la subred (expresada en notación CIDR) de la red faltante? La dirección de red asignada para crear subredes es 192.168.0.0/23 y se utilizaron máscaras de longitud variable (VLSM) para generar el direccionamiento.",
+        "image": "red1.png",
+        "options": [
+          "192.168.0.0/24",
+          "192.168.0.0/25",
+          "192.168.96.0/26",
+          "192.168.220.0/27"
+        ],
+        "correctAnswer": 3,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 32,
+        "question": "Estándar que define WiFi y todas sus variantes",
+        "options": [
+          "802.3b",
+          "802.3",
+          "802.11",
+          "802.15"
+        ],
+        "correctAnswer": 3,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 33,
+        "question": "Si un sistema puede probar quién es el emisor de un mensaje específico, ¿de qué servicio asociado a la seguridad informática se trata?",
+        "options": [
+          "Integridad",
+          "Disponibilidad",
+          "Confidencialidad",
+          "No repudio"
+        ],
+        "correctAnswer": 4,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 34,
+        "question": "Las siguientes condiciones son indispensables para garantizar que el encriptador one-time-pad sea seguro, excepto:",
+        "options": [
+          "No deben repetirse llaves al encriptar",
+          "La operación XOR debe ser utilizada tanto para encriptar como para desencriptar",
+          "La longitud de la llave debe ser igual a la longitud del mensaje",
+          "El tamaño del bloque no debe ser mayor a 2n - 1, donde n es la longitud del mensaje"
+        ],
+        "correctAnswer": 4,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 35,
+        "question": "¿Cuál sería el resultado de encriptar el mensaje 'YOSOYIRONMAN' mediante el encriptador por desplazamientos usando una llave igual a 3?",
+        "options": [
+          "BVRLIRQPOPPDQ",
+          "AQXQAKTQPOCP",
+          "CRVRBLPQFDDQ",
+          "BRVRBLURQPDQ"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "questionNumber": 36,
+        "question": "Concepto de ciberseguridad que significa que los activos se mantienen ocultos.",
+        "options": [
+          "No repudio",
+          "Integridad",
+          "Disponibilidad",
+          "Confidencialidad"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "questionNumber": 37,
+        "question": "Es el diagrama que te permite revisar las acciones que suceden en un caso de uso",
+        "options": [
+          "Diagrama de Estados",
+          "Diagrama de Secuencia",
+          "Diagrama de Clases",
+          "Diagrama de Casos de Uso"
+        ],
+        "correctAnswer": 2,
+        "feedback": "Incorrecto"
+      },
+      {
+        "questionNumber": 38,
+        "question": "¿Cuál de los siguientes ‘stakeholders’ es el más importante?",
+        "options": [
+          "Personal de Desarrollo",
+          "Director de empresa",
+          "Administradores",
+          "Usuarios del Sistema"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "questionNumber": 39,
+        "question": "¿Cuál de los siguientes no es un paso en la Ingeniería de Requerimientos?",
+        "options": [
+          "Diseño",
+          "Elicitación",
+          "Documentación",
+          "Análisis"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question_number": 40,
+        "question_text": "¿Cuál de los siguientes no es un tipo de requerimiento de software?",
+        "options": [
+          "Usabilidad",
+          "Factibilidad",
+          "Estético",
+          "Disponibilidad"
+        ],
+        "correct_option": "Estético",
+        "is_correct": false
+      },
+      {
+        "question_number": 41,
+        "question_text": "En el siguiente diagrama, que enunciado describe mejor la relación de los dos casos de uso:",
+        "options": [
+          "El Caso de Uso A extiende el Caso de Uso B",
+          "El Caso de Uso A incluye el Caso de Uso B",
+          "El Caso de Uso B extiende el Caso de Uso A",
+          "El Caso de Uso A generaliza el Caso de Uso B"
+        ],
+        "correct_option": "El Caso de Uso A incluye el Caso de Uso B",
+        "is_correct": false
+      },
+      {
+        "question_number": 42,
+        "question_text": "¿Qué actividades necesitan completarse antes de realizar el alojamiento de los requerimientos del sistema?",
+        "options": [
+          "II",
+          "I",
+          "III",
+          "I y III"
+        ],
+        "correct_option": "II",
+        "is_correct": true
+      },
+      {
+        "question_number": 43,
+        "question_text": "Un diseño que puede modificarse fácilmente para correr en una variedad de ambientes de software y hardware es altamente:",
+        "options": [
+          "interoperable",
+          "portable",
+          "rentable",
+          "usable"
+        ],
+        "correct_option": "portable",
+        "is_correct": false
+      },
+      {
+        "question_number": 44,
+        "question_text": "¿Cómo modelas la siguiente situación con un diagrama de clases? ¿qué diagrama eliges? Cada restaurante (restaurant) tiene al menos una cocina (kitchen), una cocina es parte de exactamente un restaurante.",
+        "options": [
+          "el diagrama C",
+          "el diagrama D",
+          "el diagrama B",
+          "el diagrama A"
+        ],
+        "correct_option": "el diagrama A",
+        "is_correct": false
+      },
+      {
+        "question_number": 45,
+        "question_text": "Completa la siguiente frase. El modelo MoProsoft es un conjunto de procesos para _______ de los procesos de desarrollo de software.",
+        "options": [
+          "desplazamiento y autogestión",
+          "gestión y administración",
+          "Monitoreo y Control",
+          "Mejora y Evaluación"
+        ],
+        "correct_option": "Mejora y Evaluación",
+        "is_correct": false
+      },
+      {
+        "question_number": 46,
+        "question_text": "¿Cuál es el primer paso al hacer el Aseguramiento de la Calidad?",
+        "options": [
+          "Saber el presupuesto con el que cuenta",
+          "Desarrollar estándares",
+          "Hacer plan de pruebas",
+          "Identificar las necesidades del cliente"
+        ],
+        "correct_option": "Desarrollar estándares",
+        "is_correct": false
+      },
+      {
+        "question_number": 47,
+        "question_text": "Es un ejemplo del Aseguramiento de la Calidad",
+        "options": [
+          "Verificación",
+          "Documentación",
+          "Validación",
+          "Pruebas de Software"
+        ],
+        "correct_option": "Verificación",
+        "is_correct": false
+      },
+      {
+        "question_number": 48,
+        "question_text": "¿En qué nivel de CMMI se tiene la mayor disminución de costos al detectar defectos en etapas iniciales del ciclo de vida?",
+        "options": [
+          "nivel 2",
+          "nivel 4",
+          "nivel 5",
+          "nivel 1"
+        ],
+        "correct_option": "nivel 5",
+        "is_correct": false
+      },
+      {
+        "question_number": 49,
+        "question_text": "El siguiente modelo Entidad-Relación, al pasarlo a modelo Relacional genera",
+        "options": [
+          "el número depende de los atributos de la relación",
+          "dos tablas",
+          "cuatro tablas",
+          "tres tablas"
+        ],
+        "correct_option": "tres tablas",
+        "is_correct": false
+      },
+      {
+        "question_number": 50,
+        "question_text": "Usando las siguientes relaciones contesta la pregunta. CLIENTE (IdCliente, NombreCliente, RentaAnual, TipoCliente) EMBARQUE (IdEmbarque, IdCliente, Peso, NumCamion, Ciudad, FechaEmbarque) CAMION (NumCamion, NombreConductor) CIUDAD (NombreCiudad, Población) Listar los nombres de las ciudades en las cuales no se ha entregado ningún embarque:",
+        "options": [
+          "SELECT NombreCiudad FROM EMBARQUE WHERE NombreCiudad <> CIUDAD. NombreCiudad",
+          "SELECT NombreCiudad FROM CIUDAD WHERE NombreCiudad NOT IN (SELECT Ciudad FROM EMBARQUE)",
+          "SELECT NombreCiudad FROM CIUDAD WHERE NombreCiudad <> EMBARQUE.Ciudad",
+          "SELECT NombreCiudad FROM CIUDAD WHERE NombreCiudad NOT IN (SELECT NombreCiudad FROM CIUDAD)"
+        ],
+        "correct_option": "SELECT NombreCiudad FROM CIUDAD WHERE NombreCiudad NOT IN (SELECT Ciudad FROM EMBARQUE)",
+        "is_correct": false
+      },
+      {
+        "question_number": 51,
+        "question_text": "Dado el siguiente esquema relacional Cliente(numCliente, nombre, email, ciudad) Vendedor(numVendedor, nombre, email, zona) Factura(numFactura, numCliente, importe, mes, año, numVendedor) La expresión SQL para mostrar el nombre y correo de los clientes que tienen facturas con importe mayor a 2000 pesos del año 2019.",
+        "options": [
+          "Select nombre, email from Cliente c, Factura f where c.numcliente=f.numcliente, importe > 2000, año=2019",
+          "Select nombre, email from Cliente JOIN Factura where importe > 2000 AND año=2019",
+          "Select nombre, email from Cliente c, Factura f where c.numcliente=f.numcliente AND importe > 2000 AND año=2019",
+          "Select nombre, email from Cliente, Factura where importe > 2000 AND año=2019"
+        ],
+        "correct_option": "Select nombre, email from Cliente c, Factura f where c.numcliente=f.numcliente AND importe > 2000 AND año=2019",
+        "is_correct": false
+      },
+      {
+        "question_number": 52,
+        "question_text": "Mapear el siguiente diagrama al modelo relacional",
+        "options": [
+          "PERSONA(ID, nombre) DEPENDIENTE(ID, nombre,fechanac, sexo, fecharegistro)",
+          "PERSONA(ID, nombre) TIENE(ID, nombre,fechanac, fecharegistro) DEPENDIENTE(nombre,fechanac, sexo)",
+          "PERSONA(ID nombre, fecharegistro) DEPENDIENTE(ID, nombre, fechanac, sexo)",
+          "PERSONA(ID, nombre) DEPENDIENTE(discriminant sexo, fecharegistro)"
+        ],
+        "correct_option": "PERSONA(ID, nombre) DEPENDIENTE(ID, nombre,fechanac, sexo, fecharegistro)",
+        "is_correct": false
+      },
+      {
+        "question_number": 53,
+        "question_text": "Usando las siguientes relaciones contesta la pregunta. CLIENTE (IdCliente, NombreCliente, RentaAnual, TipoCliente) EMBARQUE (IdEmbarque, IdCliente, Peso, NumCamion, Ciudad, FechaEmbarque) CAMION (NumCamion, NombreConductor) CIUDAD (NombreCiudad, Población) Cómo se podría listar el peso de los embarques que ha surtido el camión número 18 o que son de las ciudades cuyo nombre inicie con ‘V’",
+        "options": [
+          "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 and Ciudad like ‘V%’",
+          "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 and Ciudad like ‘V_’",
+          "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 or Ciudad like ‘V_’",
+          "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 or Ciudad like ‘V%’"
+        ],
+        "correct_option": "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 and Ciudad like ‘V%’",
+        "is_correct": true
+      },
+      {
+        "question_number": 54,
+        "question_text": "El modelo conceptual de bases de datos, que es independiente del tipo de sistema de gestión de bases de datos a utilizar es:",
+        "options": [
+          "Modelo Lógico",
+          "Modelo Entidad-Relación",
+          "Modelo Relacional",
+          "Modelo Físico"
+        ],
+        "correct_option": "Modelo Entidad-Relación",
+        "is_correct": true
+      },
+      {
+        "question_number": 55,
+        "question_text": "De acuerdo a los datos de la siguiente tabla, que representan las actividades de un proyecto con sus duraciones y dependencias, desarrolla el diagrama de red, calcula la ruta crítica y contesta ¿cuál es el tiempo último de inicio (LS) para la actividad E?",
+        "options": [
+          "tiempo 5",
+          "tiempo 7",
+          "tiempo 1",
+          "tiempo 9"
+        ],
+        "correct_option": "tiempo 7",
+        "is_correct": false
+      },
+      {
+        "question_number": 56,
+        "question_text": "¿Qué es el Work Breakdown Structure o Estructura de Desglose de Trabajo?",
+        "options": [
+          "Es una descomposición jerárquica de las actividades y tiempos requeridos para terminar el proyecto, siempre se utiliza en formato gráfico, es decir a manera de diagrama.",
+          "Es una lista jerárquica a manera de organigrama, que incluye todas las personas relevantes para terminar el proyecto.",
+          "Es una descomposición jerárquica, orientada al entregable, de las actividades requeridas para terminar el proyecto.",
+          "Es una lista jerárquica de las actividades, tiempos y dependencias requeridas para terminar el proyecto."
+        ],
+        "correct_option": "Es una descomposición jerárquica, orientada al entregable, de las actividades requeridas para terminar el proyecto.",
+        "is_correct": false
+      },
+      {
+        "question_number": 57,
+        "question_text": "¿Cuál es una característica del método de Valor Ganado o Earned Value utilizado en Gestión de proyectos de software?",
+        "options": [
+          "Debo de identificar las actividades del proyecto y actualizar su avance continuamente.",
+          "Para utilizarlo es indispensable una herramienta como el MS Project.",
+          "No me puedo dar cuenta a tiempo de que el proyecto va retrasado.",
+          "Tiene que transcurrir más del 70% del proyecto para que me pueda ser útil."
+        ],
+        "correct_option": "Debo de identificar las actividades del proyecto y actualizar su avance continuamente.",
+        "is_correct": false
+      },
+      {
+        "question_number": 58,
+        "question_text": "De acuerdo a los datos de la siguiente tabla, que representan las actividades de un proyecto con sus duraciones y dependencias, desarrolla el diagrama de red, calcula la ruta crítica y contesta ¿cuáles son los nodos que conforman la ruta crítica?",
+        "options": [
+          "Inicio, A, D, F, Fin",
+          "Inicio, B, C, E, Fin",
+          "Inicio, A, C, D, Fin",
+          "Inicio, A, B, C, D, E, F, Fin"
+        ],
+        "correct_option": "Inicio, A, C, D, Fin",
+        "is_correct": false
+      },
+      {
+        "question_number": 59,
+        "question_text": "De acuerdo a los datos de la siguiente tabla, que representan las actividades de un proyecto con sus duraciones y dependencias, desarrolla el diagrama de red, calcula la ruta crítica y contesta ¿cuál es la duración total del proyecto?",
+        "options": [
+          "13 períodos",
+          "10 períodos",
+          "7 períodos",
+          "5 períodos"
+        ],
+        "correct_option": "10 períodos",
+        "is_correct": false
+      },
+      {
+        "question_number": 60,
+        "question_text": "Representa una descomposición estructurada (por niveles) o desglose jerárquico (de lo general a lo particular) de todo el trabajo necesario para realizar un proyecto",
+        "options": [
+          "Estructura de la división del trabajo",
+          "Matriz de responsabilidades",
+          "Project Charter",
+          "Especificación del proyecto"
+        ],
+        "correct_option": "Estructura de la división del trabajo",
+        "is_correct": true
+      }
+    ]
+  }
+  
