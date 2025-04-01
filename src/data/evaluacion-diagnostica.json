@@ -46,7 +46,7 @@
             "Primero en anchura, partiendo de G (breadth first): G, F, E, C, A, B, D ", 
             "Primero en profundidad, partiendo de F (depth first): F, E, C, A, B, D, G", 
             " Primero en profundidad, partiendo de A (depth first): A, B, D, C, E, F, G "],
-        "correct": 2,
+        "correct": 1,
         "image" : "/images/evaluacion-diagnostica/5.png"
       },
       {
@@ -62,7 +62,7 @@
       {
         "question": "Sobre una tabla hash de 10 posiciones se insertaron las siguientes llaves en el orden que se muestran: 59, 10, 31, 88, 8, 28, 15. Si la función de hashing que se utilizó es h(n) = n % 10 y se empleó como estrategia de manejo de colisiones la cuadrática, ¿en qué posición queda guardado el valor de 28?",
         "options": ["7", "4", "6", "8"],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "¿Cuál es el Orden del siguiente algoritmo? (Asumiendo que la instrucción es de O(1))",
@@ -135,7 +135,7 @@
           "x = 5",
           "x = 0"
         ],
-        "correct": 2,
+        "correct": 0,
         "image" : "/images/evaluacion-diagnostica/14.png"
       },
       {
@@ -156,7 +156,7 @@
       {
         "question": "Una compañía utiliza un sistema de procesamiento de documentos. El procesamiento se lleva a cabo en dos fases. En la primera se realiza una conversión en la que el documento se pasa de HTML a XML. La segunda fase consiste en crear una tabla de referencias cruzadas. Cada fase tiene su propio procesador con cola. La conversión por documento se lleva a cabo en promedio en 3 segundos, mientras que la realización de las referencias se realiza en 2 segundos. ¿Cuál es el tiempo de espera promedio?",
         "options": ["13 segundos", "0 segundos", "3 segundos", "9 segundos"],
-        "correct": 2,
+        "correct": 3,
         "image" : "/images/evaluacion-diagnostica/17.png"
       },
       {
@@ -167,7 +167,7 @@
           "Una CNN intercambia las entradas entre cada neurona, generando nuevas capas en la red con el objetivo de aumentar la precisión del modelo",
           "Una CNN utiliza una matriz de especialización para encontrar características especificas en grupos de entrada más pequeños"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Aplicar el algoritmo A* al siguiente grafo si el estado inicial es P y la meta es N. Los sucesores de un nodo se generan de izquierda a derecha según lo que se observa en el grafo. Considera que las trayectorias entre un nodo y sus sucesores directos son bidireccionales de acuerdo al sentido de las flechas. Las cantidades que aparecen en los arcos del grafo representan los costos de desplazamiento entre un nodo y otro. La función de evaluación heurística se detalla a continuación del grafo. Junto con la solución, indica cuántos nodos fueron generados durante el proceso de búsqueda y cuantos de ellos son redundantes. Recuerda que un nodo es redundante cuando ya aparece previamente con un costo menor en otra trayectoria.",
@@ -177,7 +177,7 @@
           "P-A-L-G-N con 10 nodos generados y 2 redundantes",
           "P-A-R-G-N con 8 nodos generados y 2 redundantes"
         ],
-        "correct": 1,
+        "correct": 2,
         "image" : "/images/evaluacion-diagnostica/19.png"
       },
       {
@@ -198,19 +198,8 @@
           "17",
           "16"
         ],
-        "correct": 3,
+        "correct": 2,
         "image" : "/images/evaluacion-diagnostica/21.png"
-      },
-      {
-        "question": "Una computadora tiene 4 marcos de página de memoria RAM. El tiempo cuando se cargó una determinada página en memoria real, el tiempo de la última referencia a esa página (última vez que se utilizó), ambos desde la última vez que cada página se cargó en memoria real y los bits de referencia (0 si no ha sido referenciada, 1 si ya fue referenciada) y de modificación (0 no se ha modificado, 1 ya se modificó) para cada marco de página se muestra a continuación:",
-        "options": [
-          "FIFO 1 LRU 2",
-          "FIFO 2 LRU 1",
-          "FIFO 1 LRU 0",
-          "FIFO 3 LRU 0"
-        ],
-        "correct": 1,
-        "image" : "/images/evaluacion-diagnostica/22.png"
       },
       {
         "question": "Considere un sistema computacional que maneja memoria virtual el cual tiene espacio para cuatro páginas en memoria real. Determine la cantidad de intercambios de páginas en memoria real a través de la estrategia LRU de acuerdo con las siguientes solicitudes:",
@@ -220,7 +209,7 @@
           "6",
           "8"
         ],
-        "correct": 3,
+        "correct": 0,
         "image" : "/images/evaluacion-diagnostica/23.png"
       },
       {
@@ -231,7 +220,7 @@
           "Pistas recorridas = 31",
           "Pistas recorridas = 28"
         ],
-        "correct": 1,
+        "correct": 2,
         "image" : "/images/evaluacion-diagnostica/24.png"
       },
       {
@@ -303,7 +292,7 @@
           "192.168.96.0/26",
           "192.168.220.0/27"
         ],
-        "correctAnswer": 3,
+        "correctAnswer": 1,
         "image" : "/images/evaluacion-diagnostica/31.png"
       },
       {
@@ -314,7 +303,7 @@
           "802.11",
           "802.15"
         ],
-        "correct": 3
+        "correct": 2
       },
       {
         "question": "Si un sistema puede probar quién es el emisor de un mensaje específico, ¿de qué servicio asociado a la seguridad informática se trata?",
@@ -364,7 +353,7 @@
           "Diagrama de Clases",
           "Diagrama de Casos de Uso"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "¿Cuál de los siguientes ‘stakeholders’ es el más importante?",
@@ -404,7 +393,7 @@
           "El Caso de Uso B extiende el Caso de Uso A",
           "El Caso de Uso A generaliza el Caso de Uso B"
         ],
-        "correct": 0,
+        "correct": 1,
         "image" : "/images/evaluacion-diagnostica/41.png"
       },
       {
@@ -457,7 +446,7 @@
           "Hacer plan de pruebas",
           "Identificar las necesidades del cliente"
         ],
-        "correct_option": 2
+        "correct": 3
       },
       {
         "question": "Es un ejemplo del Aseguramiento de la Calidad",
@@ -477,7 +466,7 @@
           "nivel 5",
           "nivel 1"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "El siguiente modelo Entidad-Relación, al pasarlo a modelo Relacional genera",
@@ -487,7 +476,7 @@
           "cuatro tablas",
           "tres tablas"
         ],
-        "correct": 0,
+        "correct": 3,
         "image" : "/images/evaluacion-diagnostica/49.png"
       },
       {
@@ -498,7 +487,7 @@
           "SELECT NombreCiudad FROM CIUDAD WHERE NombreCiudad <> EMBARQUE.Ciudad",
           "SELECT NombreCiudad FROM CIUDAD WHERE NombreCiudad NOT IN (SELECT NombreCiudad FROM CIUDAD)"
         ],
-        "correct" : 0,
+        "correct" : 1,
         "image" : "/images/evaluacion-diagnostica/50.png"
       },
       {
@@ -509,19 +498,8 @@
           "Select nombre, email from Cliente c, Factura f where c.numcliente=f.numcliente AND importe > 2000 AND año=2019",
           "Select nombre, email from Cliente, Factura where importe > 2000 AND año=2019"
         ],
-        "correct" : 0,
+        "correct" : 2,
         "image" : "/images/evaluacion-diagnostica/51.png"
-      },
-      {
-        "question": "Mapear el siguiente diagrama al modelo relacional",
-        "options": [
-          "PERSONA(ID, nombre) DEPENDIENTE(ID, nombre,fechanac, sexo, fecharegistro)",
-          "PERSONA(ID, nombre) TIENE(ID, nombre,fechanac, fecharegistro) DEPENDIENTE(nombre,fechanac, sexo)",
-          "PERSONA(ID nombre, fecharegistro) DEPENDIENTE(ID, nombre, fechanac, sexo)",
-          "PERSONA(ID, nombre) DEPENDIENTE(discriminant sexo, fecharegistro)"
-        ],
-        "correct_option": 0,
-        "image" : "/images/evaluacion-diagnostica/52.png"
       },
       {
         "question": "",
@@ -531,7 +509,7 @@
           "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 or Ciudad like ‘V_’",
           "SELECT peso FROM EMBARQUE WHERE NumCamion = 18 or Ciudad like ‘V%’"
         ],
-        "correct": 0,
+        "correct": 3,
         "image" : "/images/evaluacion-diagnostica/53.png"
       },
       {
@@ -563,7 +541,7 @@
           "Es una descomposición jerárquica, orientada al entregable, de las actividades requeridas para terminar el proyecto.",
           "Es una lista jerárquica de las actividades, tiempos y dependencias requeridas para terminar el proyecto."
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "question": "¿Cuál es una característica del método de Valor Ganado o Earned Value utilizado en Gestión de proyectos de software?",
@@ -583,7 +561,7 @@
           "Inicio, A, C, D, Fin",
           "Inicio, A, B, C, D, E, F, Fin"
         ],
-        "correct": 2,
+        "correct": 0,
         "image" : "/images/evaluacion-diagnostica/58.png"
       },
       {
@@ -606,6 +584,141 @@
           "Especificación del proyecto"
         ],
         "correct": 0
+      },
+      {
+        "question": "¿Cuáles de las siguientes aseveraciones son verdaderas?",
+        "options": [
+          "El algoritmo de Búsqueda Binaria tiene en su peor caso O(n log2n)",
+          "El algoritmo de Búsqueda Binaria tiene en su mejor caso O(log2n)",
+          "El algoritmo del Quick Sort tiene en su peor caso O(n log2n)",
+          "El algoritmo del Merge Sort tiene en su peor caso O(n log2n)"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "",
+        "options": [
+          "O(n)",
+          "O(n^2)",
+          "O(1)",
+          "O(log2 n)"
+        ],
+        "correct": 0,
+        "image" : "/images/evaluacion-diagnostica/60.jpeg"
+      },
+      {
+        "question": "",
+        "options": [
+          "[A,[A]]",
+          "[A, [A, S]]",
+          "[a,[A,S]]",
+          "[S, [A]]"
+        ],
+        "correct": 2,
+        "image" : "/images/evaluacion-diagnostica/61.jpeg"
+      },
+      {
+        "question": "Selecciona la aseveración FALSA",
+        "options": [
+          "El ordenamiento y la búsqueda son problemas NP son resolubles en tiempo polinomial or una máquina de Turing ",
+          "Los problemas NP completos son irresolubles",
+          "El ordenamiento y la búsqueda son problemas NP",
+          "Los problemas NP son resolubles en tiempo polinomial por una máquina de Turing no determinista"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuáles son consideraciones de sobre-entrenar (overfiting) en aprendizaje computacional?",
+        "options": [
+          "El modelo se ajusta a características particulares de los datos en el set de entrenamiento por lo que se genera una incapacidad de reconocer datos nuevos",
+          "El modelo aprenderá características de poca importancia por lo que la función de evaluación fallará al validar el modelo",
+          "El modelo aprenderá con mayor precisión. Sin embargo, se requerirá mayor tiempo de entrenamiento y recursos de procesamiento ",
+          "Al entrenar el modelo con los valores mejor evaluados se eliminará cualquier error en el aprendizaje aumentando la precisión del modelo. Esto requerirá mayor tiempo de entrenamiento"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Son los tres datos minimos que debe tener configurado una computadora para tener conectividad dentro de la red",
+        "options": [
+          "Máscara de subred, vty, gateway",
+          "DNS, Gateway, Máscara de subred",
+          "Gateway, Dirección IP, DNS",
+          "Dirección IP, máscara de subred, gateway"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "¿A que subred pertenece el host con dirección 172.27.71.138/21",
+        "options": [
+          "172.27.64.0",
+          "172.27.71.0",
+          "172.27.0.0",
+          "172.0.0.0"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "",
+        "options": [
+          "6",
+          "4",
+          "2",
+          "5"
+        ],
+        "correct": 0,
+        "image" : "/images/evaluacion-diagnostica/66.jpeg"
+      },
+      {
+        "question": "En un intercambio de llaves Diffie-Helman, tenemos un número primo p=53 y g=17 es una raiz primitiva módulo 53. Alice selecciona a=5 y Bob selecciona b=7. ¿Qué número envia Alice a Bob?",
+        "options": [
+          "5",
+          "38",
+          "17",
+          "40"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "El siguiente ataque es considerado Malware",
+        "options": [
+          "Ransomware",
+          "Mail-bombing",
+          "Fallos de energía",
+          "Spoofing"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "En UML, la modelación basada en eventos se hace utilizando",
+        "options": [
+          "Diagramas de Estados",
+          "Diagramas de Clases",
+          "Diagramas de Secuencia",
+          "Diagramas de Actividad"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "",
+        "options": [
+          "I y III",
+          "I, III y IV",
+          "I y II",
+          "I, II, III y IV"
+        ],
+        "correct": 0,
+        "image" : "/images/evaluacion-diagnostica/70.jpeg"
+      },
+      {
+        "question": "",
+        "options": [
+          "42, 62, 64, 25, 46, 55, 63, 70, 16, 53, 65, 41, 74, 60",
+          "25, 16, 41, 46, 55,53,42,62, 64, 63,70, 65, 74, 60",
+          "60, 41,16, 25, 53,46,42, 55, 74, 65, 63, 62, 64, 70",
+          "25, 16, 42, 46,55,53,41,62, 64, 63,70, 65, 74, 60"
+        ],
+        "correct": 3,
+        "image" : "/images/evaluacion-diagnostica/71.jpeg"
       }
     ]
   }

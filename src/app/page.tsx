@@ -1,21 +1,31 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState(true);
   const quizzes = [
     { id: "evaluacion-diagnostica", name: "Evaluación Diagnóstica" },
-    { id: "quiz-ingenieria-de-requerimientos", name: "Ingeniería de Requerimientos" },
-    { id: "quiz-de-diseno", name: "Diseño de Software" },
+    { id: "quiz-ingenieria-de-requerimientos", name: "Quiz de Ingeniería de Requerimientos" },
+    { id: "quiz-de-diseno", name: "Quiz de Diseño de Software" },
     { id: "quiz-de-desarrollo", name: "Quiz de Desarrollo de Software" },
     { id: "quiz-gestion-de-proyectos", name: "Quiz de Gestión de Proyectos" },
   ];
+  const [isFirstVisit, setIsFirstVisit] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    const visited = JSON.parse(localStorage.getItem("visited") || "false") || false;
+    setIsFirstVisit(!visited);
+  }, []);
 
   const handleClose = () => {
-    setIsVisible(false);
+    localStorage.setItem("visited", JSON.stringify(true));
+    setIsFirstVisit(false);
   };
+
+  if (isFirstVisit === null) {
+    return null; // Loading state
+  }
 
   return (
     <div className="min-h-screen p-6 bg-black flex flex-col items-center relative">
@@ -37,23 +47,26 @@ export default function Home() {
           </Link>
         ))}
       </div>
-      {isVisible && (
+      {isFirstVisit && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white p-12 rounded-lg w-1/2 max-w-4xl text-left">
             <h2 className="font-bold text-2xl mb-6 text-black">¡Anuncio Importante!</h2>
             <p className="text-black mb-4">
-              ¡Bienvenid@ a la aplicación! Debido a que Canvas no permite visualizar las respuestas correctas, muchos de los quizzes están incompletos. Te agradecería mucho si pudieras ayudarme a identificar los quizzes y preguntas que faltan por completar. Puedes encontrar esta información en el archivo README.md del proyecto en GitHub. 
+              ¡Bienvenid@ a la aplicación! Aquí podrás practicar para el examen CENEVAL.
+              <br />
             </p>
             <p className="text-black mb-4">
-              Si prefieres, puedes enviarme los detalles a través de WhatsApp o hacer un push al repositorio con las correcciones. 
-              Tambien te invito a contribuir con tus propias preguntas o quizzes.
+              ¡Todos los quizzes estan listos con las respuestas correctas! (*En teoría*)
             </p>
             <p className="text-black mb-4">
-              Hasta ahora, los siguientes quizzes están completamente terminados:
+              Si crees que alguna respuesta es incorrecta o algun otro problema hazmelo saber por favor.
+              <br />
             </p>
-            <ul className="list-disc pl-5 text-black">
-              <li>Quiz de Desarrollo de Software</li>
-            </ul>
+            <strong className="text-black mb-4">
+              Esta app no esta pensada para ser usada en mobile, por favor usa una computadora.
+            </strong>
+            <br />
+            <strong className="text-black mb-4 pr-6">¡Buena suerte en tu preparación!</strong>
             <button 
               onClick={handleClose}
               className="mt-6 bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition"

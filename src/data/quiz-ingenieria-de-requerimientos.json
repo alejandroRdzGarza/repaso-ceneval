@@ -1,5 +1,5 @@
 {
-    "title": "Ingeniería de Requerimientos Quiz",
+    "title": "Ingeniería de Requerimientos",
     "questions": [
       {
         "question": "¿Cuál de las siguientes es una buena práctica (best practice) para la documentación de productos de software en un entorno de desarrollo ágil?",
@@ -136,70 +136,6 @@
         "correct": [5, 7]
       },
       {
-        "question": "Cuáles de los siguientes son requisitos de datos lógicos.",
-        "options": [
-          "El sistema tardara un máximo de 5 segundos en responder.",
-          "Solicitar permiso para acceder a la cámara.",
-          "Las contraseñas se guardan con una encriptación de 512bits.",
-          "Manera en cómo se van a guardar los datos en la BD.",
-          "Acceder a APIs.",
-          "El sistema se va a desarrollar en React/Angular.",
-          "Delimitar formato de texto de entrada al sistema.",
-          "Enviar mensaje a contacto.",
-          "Comprimir archivo.",
-          "La interfaz de usuario se va a desarrollar utilizando Material Design."
-        ],
-        "correct": [2, 3, 6, 7]
-      },
-      {
-        "question": "Cuáles de los siguientes son requisitos de interfaces externas.",
-        "options": [
-          "Acceder a APIs.",
-          "Solicitar permiso para acceder a la cámara.",
-          "Delimitar formato de texto de entrada al sistema.",
-          "Enviar mensaje a contacto.",
-          "Comprimir archivo.",
-          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
-          "Las contraseñas se guardan con una encriptación de 512bits.",
-          "Manera en cómo se van a guardar los datos en la BD.",
-          "El sistema tardara un máximo de 5 segundos en responder.",
-          "El sistema se va a desarrollar en React/Angular."
-        ],
-        "correct": [0, 1, 3, 4]
-      },
-      {
-        "question": "Cuáles de los siguientes son requisitos no funcionales.",
-        "options": [
-          "Delimitar formato de texto de entrada al sistema.",
-          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
-          "Enviar mensaje a contacto.",
-          "El sistema se va a desarrollar en React/Angular.",
-          "Comprimir archivo.",
-          "Las contraseñas se guardan con una encriptación de 512bits.",
-          "Solicitar permiso para acceder a la cámara.",
-          "Manera en cómo se van a guardar los datos en la BD.",
-          "Acceder a APIs.",
-          "El sistema tardara un máximo de 5 segundos en responder."
-        ],
-        "correct": [1, 2, 3, 6, 9]
-      },
-      {
-        "question": "Cuáles de los siguientes son requisitos funcionales.",
-        "options": [
-          "Comprimir archivo.",
-          "El sistema tardara un máximo de 5 segundos en responder.",
-          "Delimitar formato de texto de entrada al sistema.",
-          "Enviar mensaje a contacto.",
-          "Solicitar permiso para acceder a la cámara.",
-          "Acceder a APIs.",
-          "La interfaz de usuario se va a desarrollar utilizando Material Design.",
-          "El sistema se va a desarrollar en React/Angular.",
-          "Las contraseñas se guardan con una encriptación de 512bits.",
-          "Manera en cómo se van a guardar los datos en la BD."
-        ],
-        "correct": [0, 3, 4, 5]
-      },
-      {
         "question": "Los requisitos no funcionales se clasifican en:",
         "options": [
           "Indispensables y deseables.",
@@ -245,7 +181,7 @@
           "Tiempo de formación (entrenamiento).",
           "Disponibilidad."
         ],
-        "correct": 2
+        "correct": [2]
       },
       {
         "question": "Cuáles de las siguientes medidas podemos usar para medir la facilidad de uso del sistema.",
@@ -267,7 +203,7 @@
           "El sistema puede procesar archivos de 10mb en menos de 5 minutos.",
           "El sistema no descargara el archivo si está protegido por derechos de autor."
         ],
-        "correct": 1
+        "correct": [0,1]
       },
       {
         "question": "Cuál de los siguientes requisitos no funcionales está especificado de manera correcta.",

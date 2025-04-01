@@ -1,5 +1,5 @@
 {
-  "title": "Quiz de Diseño de Software",
+  "title": "Diseño de Software",
   "questions": [
     {
       "question": "Para representar un proceso complicado usarías...",
@@ -9,7 +9,7 @@
     {
       "question": "Una vez que las clases y los atributos han sido identificados y colocados en un diagrama, ¿la siguiente etapa es agregar..?",
       "options": ["Operaciones", "Actores", "Asociaciones", "Multiplicidades"],
-      "correct": 0
+      "correct": 2
     },
     {
       "question": "Para un recepcionista de restaurante identifique el caso de uso más válido.",

@@ -1,64 +1,64 @@
 {
-    "title": "Estándares de Calidad y Gestión de Proyectos",
+    "title": "Gestión de proyectos",
     "questions": [
       {
         "question": "Estándar internacional que busca sustituir al ISO/IEC15504 e incluye atributos nuevos, como la sustentabilidad. Evalúa procesos y asigna niveles de capacidad.",
-        "options": ["ISO/IEC 29110", "ISO/IEC 33000", "ISO/IEC 25000", "No answer text provided."],
+        "options": ["ISO/IEC 29110", "ISO/IEC 33000", "ISO/IEC 25000"],
         "correct": 1
       },
       {
         "question": "Es el primer estándar en establecer un sistema para los procesos del ciclo de vida del software. Además, agrupa las actividades que se pueden llevar a cabo en procesos primarios, de soporte y organizacionales.",
-        "options": ["ISO 12207", "ISO/IEC 15504", "ISO 9001", "No answer text provided."],
+        "options": ["ISO 12207", "ISO/IEC 15504", "ISO 9001"],
         "correct": 0
       },
       {
         "question": "Tiene como propósito integrar un equipo de trabajo que tenga como punto de partida la unificación de procesos, para poder llevar a cabo todos aquellos procedimientos que puedan ayudar a mejorar dichos procesos que desarrollan.",
-        "options": ["No answer text provided.", "SEI", "PSP", "TSP"],
-        "correct": 3
-      },
-      {
-        "question": "Modelo de calidad que evalúa la madurez de los procesos de una organización y proporciona instrucciones sobre cómo mejorar los procesos con el objetivo de mejorar sus productos.",
-        "options": ["SEI", "ISO/IEC 15504", "No answer text provided.", "CMMI"],
-        "correct": 3
-      },
-      {
-        "question": "Estándar que ofrece directrices generales para la gestión de sistemas de calidad y modelos de calidad para las organizaciones.",
-        "options": ["No answer text provided.", "ISO/IEC 9126", "ISO 9000", "ISO 12207"],
+        "options": ["SEI", "PSP", "TSP"],
         "correct": 2
       },
       {
+        "question": "Modelo de calidad que evalúa la madurez de los procesos de una organización y proporciona instrucciones sobre cómo mejorar los procesos con el objetivo de mejorar sus productos.",
+        "options": ["SEI", "ISO/IEC 15504", "CMMI"],
+        "correct": 2
+      },
+      {
+        "question": "Estándar que ofrece directrices generales para la gestión de sistemas de calidad y modelos de calidad para las organizaciones.",
+        "options": ["ISO/IEC 9126", "ISO 9000", "ISO 12207"],
+        "correct": 1
+      },
+      {
         "question": "Modelo financiado por la secretaría de finanzas del gobierno de México diseñado para mejorar los procesos de micro y pequeñas empresas de software. Se le puede considerar una versión reducida y compatible con ISO/IEC 15504 y CMMI.",
-        "options": ["MOPROSOFT", "MiPySOFT", "No answer text provided.", "CMMI"],
+        "options": ["MOPROSOFT", "MiPySOFT", "CMMI"],
         "correct": 0
       },
       {
         "question": "Este estándar auxiliar ayuda a evaluar los términos descritos en el ISO/IEC 9126 estableciendo los requisitos, especificación, diseño y ejecución de la evaluación.",
-        "options": ["ISO/IEC 14598", "ISO/IEC 15504", "No answer text provided.", "ISO/IEC 25000"],
+        "options": ["ISO/IEC 14598", "ISO/IEC 15504", "ISO/IEC 25000"],
         "correct": 0
       },
       {
         "question": "Estándar que define ocho dimensiones o características de calidad (adecuación funcional, eficiencia, compatibilidad, usabilidad, fiabilidad, seguridad, mantenibilidad y portabilidad). Además, se considera como la evolución natural del ISO/IEC 9126 y ISO/IEC 14598.",
-        "options": ["ISO/IEC 15504", "ISO/IEC 25000", "ISO/IEC 33000", "No answer text provided."],
+        "options": ["ISO/IEC 15504", "ISO/IEC 25000", "ISO/IEC 33000"],
         "correct": 1
       },
       {
         "question": "Son los modos o modelos de desarrollo que considera COCOMO para realizar sus estimaciones.",
-        "options": ["Tiempo, esfuerzo, personal requerido", "Orgánico, semi-acoplado y empotrado (embedded)", "Orgánico, acoplado y empotrado (embedded)", "No answer text provided."],
+        "options": ["Tiempo, esfuerzo, personal requerido", "Orgánico, semi-acoplado y empotrado (embedded)", "Orgánico, acoplado y empotrado (embedded)"],
         "correct": 1
       },
       {
         "question": "El modelo COCOMO permite estimar:",
-        "options": ["Esfuerzo y tiempo requerido para construir un sistema", "No answer text provided.", "Esfuerzo requerido para construir un sistema", "Costo y tiempo para construir un sistema"],
+        "options": ["Esfuerzo y tiempo requerido para construir un sistema", "Esfuerzo requerido para construir un sistema", "Costo y tiempo para construir un sistema"],
         "correct": 0
       },
       {
         "question": "¿Qué diferencia existe entre el submodelo básico y el intermedio de COCOMO?",
-        "options": ["No answer text provided.", "Las constantes por modo de desarrollo cambian", "Los KLDC son mayores en el modelo intermedio", "El intermedio agrega multiplicadores de esfuerzo y las constantes por modo de desarrollo cambian"],
-        "correct": 3
+        "options": ["Las constantes por modo de desarrollo cambian", "Los KLDC son mayores en el modelo intermedio", "El intermedio agrega multiplicadores de esfuerzo y las constantes por modo de desarrollo cambian"],
+        "correct": 2
       },
       {
         "question": "Metodología de desarrollo definido por un flujo de acciones lógicas que van de inicio a fin. Incluye las etapas de: Requerimientos, Diseño, Implementación, Verificación, Mantenimiento.",
-        "options": ["Cascada", "Lineal", "Incremental", "No answer text provided."],
+        "options": ["Cascada", "Lineal", "Incremental"],
         "correct": 0
       },
       {
@@ -74,13 +74,13 @@
       {
         "question": "Considera la siguiente tabla que indica las dependencias entre actividades. Señala la actividad o actividades con holgura (”slack”) mayor a 3 días.",
         "options": ["E", "B", "B,E"],
-        "correct": 2,
+        "correct": 1,
         "image" : "/images/quiz-gestion-de-proyectos/15.png"
       },
       {
         "question": "Considera la siguiente tabla que indica las dependencias entre actividades. Identifica la ruta crítica del proyecto.",
         "options": ["A, B, C, D, F, G", "A, B, E, G", "A, C, D, F, G"],
-        "correct": 0,
+        "correct": 2,
         "image" : "/images/quiz-gestion-de-proyectos/15.png"
       },
       {
@@ -96,7 +96,7 @@
       {
         "question": "Considera la siguiente tabla que indica las dependencias entre actividades: ¿Cuál es la duración total del proyecto?",
         "options": ["16 días", "15 días", "18 días"],
-        "correct": 2,
+        "correct": 0,
         "image" : "/images/quiz-gestion-de-proyectos/15.png"
       },
       {
