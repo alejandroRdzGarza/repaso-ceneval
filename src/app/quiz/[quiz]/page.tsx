@@ -9,6 +9,7 @@ interface QuizQuestion {
   options: string[];
   correct: number[];  // Correct answers stored in an array
   image?: string | null;
+  explanation?: string;  // Added explanation field
 }
 
 export default function QuizPage() {
@@ -146,6 +147,14 @@ export default function QuizPage() {
                 </button>
             );
             })}
+
+        {/* Explanation section - only shows after submission if explanation exists */}
+        {submitted && question.explanation && (
+          <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-md">
+            <p className="font-semibold text-blue-800">Explicación:</p>
+            <p className="text-blue-700">{question.explanation}</p>
+          </div>
+        )}
       </div>
 
       <div className="mt-4 flex justify-between w-full max-w-md">

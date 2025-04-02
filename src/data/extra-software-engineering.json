@@ -1,0 +1,532 @@
+{
+    "title": "Extra - Software Engineering",
+    "questions": [
+        {
+            "question": "Software is defined as ___________",
+            "options": [
+              "set of programs, documentation & configuration of data",
+              "set of programs",
+              "documentation and configuration of data",
+              "None of the mentioned"
+            ],
+            "correct": 0,
+            "explanation": "Software is a collection of programmes; it also includes documentation and data setup to enable the programmes to function. Microsoft windows, excel, word, powerpoint, etc. are a few examples of software."
+          },
+          {
+            "question": "What is Software Engineering?",
+            "options": [
+              "Designing a software",
+              "Testing a software",
+              "Application of engineering principles to the design a software",
+              "None of the above"
+            ],
+            "correct": 2,
+            "explanation": "Software engineering is the application of engineering principles to the design, development, and support of software and it helps to solve the challenges of low-quality software projects."
+          },
+          {
+            "question": "Who is the father of Software Engineering?",
+            "options": [
+              "Margaret Hamilton",
+              "Watts S. Humphrey",
+              "Alan Turing",
+              "Boris Beizer"
+            ],
+            "correct": 1,
+            "explanation": "Watts S. Humphrey created the Software Process Program at Carnegie Mellon University’s Institute (SEI) in the 1980s, and served as its director from 1986 through the early 1990s. This program was designed to help participants understand and manage the software developement process."
+          },
+          {
+            "question": "What are the features of Software Code?",
+            "options": [
+              "Simplicity",
+              "Accessibility",
+              "Modularity",
+              "All of the above"
+            ],
+            "correct": 2,
+            "explanation": "Software code should be written in a clear, succinct, and easy-to-understand way. Simplicity should be preserved in the program code’s organization, implementation, and design. These codes should be constructed in such a way that software components (such as files and functions) are readily available. The software may be broken down into numerous parts to make it easier to comprehend and troubleshoot."
+          },
+          {
+            "question": "___________ is a software development activity that is not a part of software processes.",
+            "options": [
+              "Validation",
+              "Specification",
+              "Development",
+              "Dependence"
+            ],
+            "correct": 3,
+            "explanation": "A software dependency is an external independent library that can range in size from a single file to numerous files and directories arranged into packages to accomplish a specified purpose and is an attribute and not an engineering activity for process."
+          },
+          {
+            "question": "Define Agile scrum methodology.",
+            "options": [
+              "project management that emphasizes incremental progress",
+              "project management that emphasizes decremental progress",
+              "project management that emphasizes neutral progress",
+              "project management that emphasizes no progress"
+            ],
+            "correct": 0,
+            "explanation": "Agile scrum methodology is a style of project management that emphasizes incremental progress. Each iteration is divided into two to four-week sprints, with the goal of completing the most important features first and delivering a possibly deliverable product at the end of each sprint."
+          },
+          {
+            "question": "CASE stands for",
+            "options": [
+              "Computer-Aided Software Engineering",
+              "Control Aided Science and Engineering",
+              "Cost Aided System Experiments",
+              "None of the mentioned"
+            ],
+            "correct": 0,
+            "explanation": "The CASE tool’s purpose is to make the work of software development and maintenance easier and more reliable."
+          },
+          {
+            "question": "________ is defined as the process of generating analysis and designing documents?",
+            "options": [
+              "Re-engineering",
+              "Reverse engineering",
+              "Software re-engineering",
+              "Science and engineering"
+            ],
+            "correct": 1,
+            "explanation": "The method of reverse engineering is used to uncover difficult, unknown, and hidden information about a software system."
+          },
+          {
+            "question": "The activity that distributes estimated effort across the planned project duration by allocating the effort to specific software developing tasks is ____________",
+            "options": [
+              "Project scheduling",
+              "Detailed schedule",
+              "Macroscopic schedule",
+              "None of the mentioned"
+            ],
+            "correct": 0,
+            "explanation": "Software project scheduling is the process of allocating anticipated effort to specific software developing activities and distributing it across the project’s intended length. A macroscopic schedule is created in the early phases of project planning."
+          },
+          {
+            "question": "What is a Functional Requirement?",
+            "options": [
+              "specifies the tasks the program must complete",
+              "specifies the tasks the program should not complete",
+              "specifies the tasks the program must not work",
+              "All of the mentioned"
+            ],
+            "correct": 0,
+            "explanation": "A functional requirement is a specification that describes a system or one of its components. It specifies the tasks the program must complete. A function is made up of three parts: inputs, behavior, and outputs."
+          },
+          {
+            "question": "Why do bugs and failures occur in software?",
+            "options": [
+              "Because of Developers",
+              "Because of companies",
+              "Because of both companies and Developers",
+              "None of the mentioned"
+            ],
+            "correct": 2,
+            "explanation": "Software businesses are in charge of establishing policies and creating a working environment for software development, therefore they are a component of the software development process. Bugs from developers are nothing new."
+          },
+          {
+            "question": "Attributes of good software is ____________",
+            "options": [
+              "Development",
+              "Maintainability & functionality",
+              "Functionality",
+              "Maintainability"
+            ],
+            "correct": 1,
+            "explanation": "Good software should provide the functionality and maintainability that are necessary. Software development is a must, not an option. Along with this software also additional attributes like usability, efficiency, reliability, accuracy, robustness, integrity, etc."
+          },
+          {
+            "question": "The Cleanroom philosophy was proposed by _________",
+            "options": [
+              "Linger",
+              "Mills",
+              "Dyer",
+              "All of the Mentioned"
+            ],
+            "correct": 3,
+            "explanation": "Mills, Dyer, and Linger initially suggested the Cleanroom concept in the 1980s. The main goal of the philosophy of cleanroom philosophy is to develop software with zero defects."
+          },
+          {
+            "question": "What does SDLC stand for?",
+            "options": [
+              "System Design Life Cycle",
+              "Software Design Life Cycle",
+              "Software Development Life Cycle",
+              "System Development Life Cycle"
+            ],
+            "correct": 2,
+            "explanation": "The Software Development Life Cycle (SDLC) is a method for designing, developing, and testing high-quality software. The software developed to meet or exceed customer expectations must have an SDLC designed to complete the software on time and on budget."
+          },
+          {
+            "question": "Who proposed the spiral model?",
+            "options": [
+              "Barry Boehm",
+              "Pressman",
+              "Royce",
+              "IBM"
+            ],
+            "correct": 0,
+            "explanation": "The spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions."
+          },
+          {
+            "question": "______________ is not among the eight principles followed by the Software Code of Ethics and Professional Practice.",
+            "options": [
+              "PRODUCT",
+              "ENVIRONMENT",
+              "PUBLIC",
+              "PROFESSION"
+            ],
+            "correct": 1,
+            "explanation": "The rest are software ethical provisions; the environment does not focus on individual clauses or their importance in relation to the topic."
+          },
+          {
+            "question": "Which of the following are CASE tools?",
+            "options": [
+              "Central Repository",
+              "Integrated Case Tools",
+              "Upper Case Tools",
+              "All of the mentioned"
+            ],
+            "correct": 3,
+            "explanation": "CASE tools can be divided into Central Repository, Integrated Case Tools, Upper Case Tools, and Lower Case Tools based on their use at a particular SDLC stage."
+          },
+          {
+            "question": "__________________ suits the Manifesto for Agile Software Development.",
+            "options": [
+              "Customer collaboration",
+              "Individuals and interactions",
+              "Working software",
+              "All of the mentioned"
+            ],
+            "correct": 3,
+            "explanation": "None."
+          },
+          {
+            "question": "Regardless of application area, project size, or complexity, software development work may be divided into three generic phases: the__________ phase, which focuses on what, the_________ phase, which focuses on how, and the_________ phase, which focuses on change.",
+            "options": [
+              "iii, ii, i",
+              "iii, i, ii",
+              "i, ii, iii",
+              "ii, i, iii"
+            ],
+            "correct": 2,
+            "explanation": "When a vulnerability is discovered, a software patch is applied to the outdated version as an emergency repair. To repair a vulnerability or flaw discovered after an application or software has been released is referred to as software patching."
+          },
+          {
+            "question": "_________ is not a fundamental activity for software processes in software development.",
+            "options": [
+              "Evolution",
+              "Design and implementation",
+              "Validation",
+              "Verification"
+            ],
+            "correct": 2,
+            "explanation": "Team members Communicate among themselves horizontally. There is no permanent leader in the team and a team of software engineers coordinates among themselves temporarily to perform the task."
+          },
+          {
+            "question": "What are agile manifesto principles?",
+            "options": [
+              "Customer satisfaction",
+              "Face-to-face communication within a development team",
+              "Changes in requirements are welcome",
+              "All of the mentioned"
+            ],
+            "correct": 3,
+            "explanation": "None."
+          },
+          {
+            "question": "Faster delivery is possible with CBSE.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correct": 1,
+            "explanation": "They build more dependable systems at a faster rate because they use previously validated components. The software developed by CBSE uses reusable components."
+          },
+          {
+            "question": "Who proposed Function Points?",
+            "options": [
+              "Albrecht",
+              "Jacobson",
+              "Boehm",
+              "Booch"
+            ],
+            "correct": 0,
+            "explanation": "Since Albrecht presented functional points in 1979, hundreds of books and articles have been produced on the subject."
+          },
+          {
+            "question": "_________ is a software development life cycle model that is chosen if the development team has less experience on similar projects.",
+            "options": [
+              "Iterative Enhancement Model",
+              "RAD",
+              "Spiral",
+              "Waterfall"
+            ],
+            "correct": 2,
+            "explanation": "For many applications, relying on risk assessment/analysis gives more freedom than is necessary, overcoming the requirements of less experienced developers."
+          },
+          {
+            "question": "Agile Software Development is based on which of the following type?",
+            "options": [
+              "Iterative Development",
+              "Incremental Development",
+              "Both Incremental and Iterative Development",
+              "Linear Development"
+            ],
+            "correct": 2,
+            "explanation": "The software is built in increments, with the client stating the criteria to be included in each increment, and the top goal is to please the customer by delivering valuable software early and frequently. They’re iterative because they work on one iteration before moving on to the next."
+          },
+          {
+            "question": "_______________________ is a software developing team has a defined leader who coordinates specific tasks and secondary leaders that have responsibility for sub tasks.",
+            "options": [
+              "Democratic decentralized (DD)",
+              "Controlled centralized (CC)",
+              "Controlled decentralized (CD)",
+              "None of the mentioned"
+            ],
+            "correct": 2,
+            "explanation": "Problem-solving is still a group activity, but the team leader divides the execution of solutions into subgroups and it is known as a Controlled decentralized team. In Democratic decentralized, there is no permanent leader in the team and a team of software developers coordinates among themselves temporarily to perform the task."
+          },
+          {
+            "question": "4GT Model is a set of __________________",
+            "options": [
+              "Programs",
+              "CASE Tools",
+              "Software tools",
+              "None of the mentioned"
+            ],
+            "correct": 2,
+            "explanation": "4GT is a collection of software tools that allow a software developer to describe high-level features and have source code created automatically based on those requirements."
+          },
+          {
+            "question": "Engineers developing software should not",
+            "options": [
+              "be dependent on their colleagues",
+              "maintain integrity and independence in their professional judgment",
+              "not knowingly accept work that is outside your competence",
+              "not use your technical skills to misuse other people’s computers"
+            ],
+            "correct": 0,
+            "explanation": "None."
+          },
+          {
+            "question": "__________ is not suitable for accommodating any change?",
+            "options": [
+              "RAD Model",
+              "Waterfall Model",
+              "Build & Fix Model",
+              "Prototyping Model"
+            ],
+            "correct": 1,
+            "explanation": "Real-world projects seldom follow the Waterfall Model’s proposed sequential sequence. A Sequential model is an example of a waterfall model. The software development activity is split into several phases in this paradigm, with each phase consisting of a sequence of activities and having different goals."
+          },
+          {
+            "question": "The model which has a major disadvantage in terms of the coding phase of a software life cycle model is ________",
+            "options": [
+              "Rad Model",
+              "Spiral Model",
+              "4GT Model",
+              "Waterfall Model"
+            ],
+            "correct": 2,
+            "explanation": "Since the coding phase is eliminated in 4GT Model, more expertise is required for analysis, design and testing activities."
+          },
+          {
+            "question": "Adaptive Software Development (ASD) has which of the following three framework activities?",
+            "options": [
+              "speculation, collaboration, learning",
+              "analysis, design, coding",
+              "requirements gathering, adaptive cycle planning, iterative development",
+              "all of the mentioned"
+            ],
+            "correct": 0,
+            "explanation": "None."
+          },
+          {
+            "question": "Which of the following is not a project factor that should be considered when planning the structure of software developing teams?",
+            "options": [
+              "The rigidity of the delivery date",
+              "The degree of sociability required for the project",
+              "High frustration caused by personal, business, or technological factors that causes friction among team members",
+              "The difficulty of the problem to be solved"
+            ],
+            "correct": 1,
+            "explanation": "Development is irrelevant to the social quotient."
+          },
+          {
+            "question": "What is the full form of the “COCOMO” model?",
+            "options": [
+              "Cost Constructive Estimation Model",
+              "Constructive Cost Estimation Model",
+              "Constructive Case Estimation Model",
+              "Constructive Cost Estimating Model"
+            ],
+            "correct": 1,
+            "explanation": "The Cocomo (Constructive Cost Model) regression model is based on the number of lines of code. It is a procedural cost estimate model that is frequently used as a method of accurately estimating size, effort, cost, duration, and quality for a project completion."
+          },
+          {
+            "question": "Which one of the following is not a software process quality?",
+            "options": [
+              "Visibility",
+              "Timeliness",
+              "Productivity",
+              "Portability"
+            ],
+            "correct": 3,
+            "explanation": "Portability is a software product quality which means software can run on different hardware platforms or environments."
+          },
+          {
+            "question": "Cleanroom software development process complies with the operational analysis principles by using a method called known as",
+            "options": [
+              "referential transparency",
+              "degenerative error correction",
+              "box structure specification",
+              "none of the mentioned"
+            ],
+            "correct": 2,
+            "explanation": "Box structures are descriptions of functions that exhibit properties essential for effective system specification and design."
+          },
+          {
+            "question": "What is system software?",
+            "options": [
+              "computer program",
+              "Testing",
+              "AI",
+              "IOT"
+            ],
+            "correct": 0,
+            "explanation": "System software is a sort of computer program that manages the hardware and applications on a computer. They are of three types: This is the operating system. This is a language processor. Software that is useful."
+          },
+          {
+            "question": "Quality Management is known as _______",
+            "options": [
+              "SQI",
+              "SQA",
+              "SQM",
+              "SQA and SQM"
+            ],
+            "correct": 1,
+            "explanation": "Software quality assurance (SQA) is another name for quality management, which is an umbrella activity that is used throughout the software development process."
+          },
+          {
+            "question": "_____________ is the definition of objects in the database that leads directly to a standard approach for the creation of software documentation.",
+            "options": [
+              "Data/data integration",
+              "Information sharing",
+              "Document standardization",
+              "Data integrity"
+            ],
+            "correct": 2,
+            "explanation": "In a software project, documentation standards are critical since papers are the only concrete means to describe the program and the development process. Standardized papers should be easy to read and comprehend since they have a uniform look, structure, and quality."
+          },
+          {
+            "question": "______________ is an indirect measure of software development process.",
+            "options": [
+              "Cost",
+              "Effort Applied",
+              "Efficiency",
+              "All of the mentioned"
+            ],
+            "correct": 2,
+            "explanation": "Efficiency is an indirect measure. Indirect measures also include products like maintainability, quality, functionality, complexity, reliability, and many more."
+          },
+          {
+            "question": "According to an IBM research, “31% of projects are abandoned before they are completed, 53% exceed their cost projections by an average of 189 percent, and 94 projects are restarted for every 100 projects.” What is the significance of these figures?",
+            "options": [
+              "Lack of software ethics and understanding",
+              "Management issues in the company",
+              "Lack of adequate training",
+              "All of the mentioned"
+            ],
+            "correct": 3,
+            "explanation": "Lack of software ethics and knowledge, as well as corporate management difficulties, are all aspects of Software Development, therefore this is a possibility. Both are due to a lack of sufficient training."
+          },
+          {
+            "question": "Which of the following document contains the user system requirements?",
+            "options": [
+              "SRD",
+              "DDD",
+              "SDD",
+              "SRS"
+            ],
+            "correct": 3,
+            "explanation": "A software requirements specification (SRS) is a detailed explanation of how a system should behave before it is built. It may also include a collection of use cases that explain how users will interact with the programme."
+          },
+          {
+            "question": "_____________ specification is also known as SRS document.",
+            "options": [
+              "white-box",
+              "grey-box",
+              "black-box",
+              "none of the mentioned"
+            ],
+            "correct": 2,
+            "explanation": "The system is regarded as a black box, with no knowledge of its underlying workings, and just its observable exterior (input/output) behavior described."
+          },
+          {
+            "question": "Which of the following is not a part of Software evolution?",
+            "options": [
+              "Re-engineering activities",
+              "Maintenance activities",
+              "Development activities",
+              "Negotiating with client"
+            ],
+            "correct": 3,
+            "explanation": "The study and management of the process of making changes to software through time is referred to as software evolution. As a result, the remaining three alternatives are available."
+          },
+          {
+            "question": "___________ is a Strategy to achieve Software diversity.",
+            "options": [
+              "Explicit specification of different algorithms",
+              "Different programming languages",
+              "Different design methods and tools",
+              "All of the mentioned"
+            ],
+            "correct": 3,
+            "explanation": "Diversity refers to the ability to deliver the same functionality in a variety of ways so that essential components of a dependable system do not fail in the same way. Because we all have varied life experiences, backgrounds, and expertise, adding variety to the problem-solving process is essential because it allows us to come up with new ideas and methods."
+          },
+          {
+            "question": "In which step of SDLC actual programming of software code is done?",
+            "options": [
+              "Development and Documentation",
+              "Maintenance and Evaluation",
+              "Design",
+              "Analysis"
+            ],
+            "correct": 0,
+            "explanation": "The documentation explains the functions of the final product. The developer must discover adequate knowledge in the technical documentation to begin coding."
+          },
+          {
+            "question": "Software Debugging is known as _________________",
+            "options": [
+              "identifying the task to be computerized",
+              "creating program code",
+              "creating the algorithm",
+              "finding and correcting errors in the program code"
+            ],
+            "correct": 3,
+            "explanation": "Software Debugging is the systematic process of identifying and decreasing the number of bugs or faults in a computer program or a piece of electrical gear so that it behaves as intended."
+          },
+          {
+            "question": "The word which describes the importance of software design is?",
+            "options": [
+              "Complexity",
+              "Quality",
+              "Efficiency",
+              "Accuracy"
+            ],
+            "correct": 1,
+            "explanation": "The degree to which software complies with or adheres to a particular design based on functional requirements or specifications is referred to as functional quality."
+          },
+          {
+            "question": "The incorrect activity among the following for the configuration management of a software system is ________",
+            "options": [
+              "Version management",
+              "System management",
+              "Change management",
+              "Internship management"
+            ],
+            "correct": 3,
+            "explanation": "The policies and methods for configuration management describe how to track and process proposed system changes, as well as how to select which system components to modify, how to manage various versions of the system and its components, and how to disseminate changes to customers."
+          }
+    ]
+  }
+  

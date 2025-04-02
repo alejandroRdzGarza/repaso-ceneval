@@ -9,6 +9,7 @@ const quizzes = [
     { id: "quiz-de-diseno", name: "Diseño de Software" },
     { id: "quiz-de-desarrollo", name: "Quiz de Desarrollo de Software" },
     { id: "quiz-gestion-de-proyectos", name: "Quiz de Gestión de Proyectos" },
+    { id: "extra-software-engineering", name: "Extra - Software Engineering" },
   ];
 
 export default function ResultsPage() {

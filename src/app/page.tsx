@@ -10,6 +10,7 @@ export default function Home() {
     { id: "quiz-de-diseno", name: "Quiz de Diseño de Software" },
     { id: "quiz-de-desarrollo", name: "Quiz de Desarrollo de Software" },
     { id: "quiz-gestion-de-proyectos", name: "Quiz de Gestión de Proyectos" },
+    { id: "extra-software-engineering", name: "Extra - Software Engineering" },
   ];
   const [isFirstVisit, setIsFirstVisit] = useState<boolean | null>(null);
 
@@ -46,6 +47,21 @@ export default function Home() {
             </button>
           </Link>
         ))}
+      </div>
+      
+      {/* Formatted paragraph with link */}
+      <div className="mt-8 max-w-md text-center">
+        <p className="text-gray-300 mb-4">
+          También puedes visitar la siguiente página para más quizzes:
+        </p>
+        <a 
+          href="https://www.sanfoundry.com/software-engineering-questions-answers/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-300 underline transition"
+        >
+          https://www.sanfoundry.com/software-engineering-questions-answers/
+        </a>
       </div>
       {isFirstVisit && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
