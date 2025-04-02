@@ -9,49 +9,71 @@ interface QuizQuestion {
   options: string[];
   correct: number[];  // Correct answers stored in an array
   image?: string | null;
-  explanation?: string;  // Added explanation field
+  explanation?: string;
+}
+
+interface ShuffledOption {
+  originalIndex: number;
+  text: string;
 }
 
 export default function QuizPage() {
   const { quiz } = useParams();
   const router = useRouter();
   const [quizData, setQuizData] = useState<{ title: string; questions: QuizQuestion[] } | null>(null);
-  const [answers, setAnswers] = useState<{ [key: number]: number[] }>({}); // Store multiple selected answers
+  const [answers, setAnswers] = useState<{ [key: number]: number[] }>({});
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [submitted, setSubmitted] = useState(false);
+  const [shuffledOptions, setShuffledOptions] = useState<ShuffledOption[][]>([]);
 
   useEffect(() => {
     if (quiz) {
       import(`@/data/${quiz}.json`)
-        .then((data) => setQuizData(data))
+        .then((data) => {
+          setQuizData(data);
+          // Initialize shuffled options for all questions
+          const shuffled: ShuffledOption[][] = data.questions.map((question: QuizQuestion) => 
+            shuffleOptions(question.options)
+          );
+          setShuffledOptions(shuffled);
+        })
         .catch((err) => console.error("Error loading quiz:", err));
     }
   }, [quiz]);
 
-  const handleAnswer = (optionIndex: number) => {
+  // Fisher-Yates shuffle algorithm
+  const shuffleOptions = (options: string[]): ShuffledOption[] => {
+    const shuffled = options.map((text, index) => ({
+      originalIndex: index,
+      text
+    }));
+    
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    
+    return shuffled;
+  };
+
+  const handleAnswer = (originalIndex: number) => {
     if (!submitted) {
       setAnswers((prev) => {
         const selectedAnswers = prev[currentQuestion] || [];
-        
-        // Check if the question expects only one answer
-        const isSingleAnswerQuestion = !Array.isArray(question.correct); // Single correct answer means it's not an array
+        const isSingleAnswerQuestion = !Array.isArray(question.correct);
         
         if (isSingleAnswerQuestion) {
-          // If it's a single answer question, clear the selection before adding the new one
-          return { ...prev, [currentQuestion]: [optionIndex] }; // Only one answer can be selected
+          return { ...prev, [currentQuestion]: [originalIndex] };
         } else {
-          // If it's a multi-answer question, toggle the selection
-          if (selectedAnswers.includes(optionIndex)) {
-            // Deselect if already selected
-            return { ...prev, [currentQuestion]: selectedAnswers.filter((item) => item !== optionIndex) };
+          if (selectedAnswers.includes(originalIndex)) {
+            return { ...prev, [currentQuestion]: selectedAnswers.filter((item) => item !== originalIndex) };
           } else {
-            // Select the answer
-            return { ...prev, [currentQuestion]: [...selectedAnswers, optionIndex] };
+            return { ...prev, [currentQuestion]: [...selectedAnswers, originalIndex] };
           }
         }
       });
     }
-  };  
+  };
 
   const handleSubmit = () => {
     setSubmitted(true);
@@ -76,13 +98,9 @@ export default function QuizPage() {
   const calculateScore = () => {
     if (!quizData) return 0;
     return quizData.questions.reduce((score, q, index) => {
-      // Ensure correct is always an array
       const correctAnswers = Array.isArray(q.correct) ? q.correct : [q.correct];
-
-      // Get selected answers for the current question
       const selectedAnswers = answers[index] || [];
       
-      // Check if the selected answers are the same as correct answers
       const isCorrect =
         selectedAnswers.length === correctAnswers.length &&
         selectedAnswers.every((answer) => correctAnswers.includes(answer)) &&
@@ -92,13 +110,14 @@ export default function QuizPage() {
     }, 0);
   };
 
-  if (!quizData) return <p className="text-center text-gray-500">Cargando...</p>;
+  if (!quizData || shuffledOptions.length === 0) return <p className="text-center text-gray-500">Cargando...</p>;
 
   const question = quizData.questions[currentQuestion];
+  const currentShuffledOptions = shuffledOptions[currentQuestion] || [];
 
   return (
     <div className="min-h-screen p-6 bg-black flex flex-col items-center">
-        <button
+      <button
         onClick={() => router.back()}
         className="absolute top-6 left-6 bg-gray-600 text-white px-4 py-2 rounded-md hover:bg-gray-500"
       >
@@ -112,43 +131,48 @@ export default function QuizPage() {
           <Image
             src={question.image}
             alt="Question Image"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
+            width={500}
+            height={300}
             className="w-full h-auto mb-4"
           />
         )}
 
-        {question.options.map((option, i) => {
-            const isSelected = answers[currentQuestion]?.includes(i); // Check if the option is selected
-            const isCorrect = Array.isArray(question.correct) ? question.correct.includes(i) : question.correct === i; // Ensure correct answers are handled properly
-            const isWrong = !isCorrect && isSelected; // Determine if it's a wrong answer
-            let buttonClass = "block w-full p-2 my-1 border rounded-md ";
+        {currentShuffledOptions.map((option, i) => {
+          const originalIndex = option.originalIndex;
+          const isSelected = answers[currentQuestion]?.includes(originalIndex);
+          const isCorrect = Array.isArray(question.correct) 
+            ? question.correct.includes(originalIndex) 
+            : question.correct === originalIndex;
+          const isWrong = !isCorrect && isSelected;
+          let buttonClass = "block w-full p-2 my-1 border rounded-md ";
 
-
-            if (submitted) {
-                if (isCorrect && isSelected) {
-                buttonClass += " bg-green-300 border-blue-600 border-4"; // Correct answer
-                } else if (isWrong && isSelected) {
-                buttonClass += " bg-red-300 border-blue-600 border-4"; // Incorrect answer
-                } else if (isCorrect) {
-                buttonClass += " bg-green-300 border-green-600"; // Correct answer
-                } else if (isWrong) {
-                buttonClass += " bg-red-300 border-red-600"; // Incorrect answer
-                } else {
-                buttonClass += " bg-white"; // Unselected and incorrect answer
-                }
+          if (submitted) {
+            if (isCorrect && isSelected) {
+              buttonClass += " bg-green-300 border-blue-600 border-4";
+            } else if (isWrong && isSelected) {
+              buttonClass += " bg-red-300 border-blue-600 border-4";
+            } else if (isCorrect) {
+              buttonClass += " bg-green-300 border-green-600";
+            } else if (isWrong) {
+              buttonClass += " bg-red-300 border-red-600";
             } else {
-                buttonClass += isSelected ? " bg-blue-300 border-blue-600" : " bg-white"; // Highlight selected answers
+              buttonClass += " bg-white";
             }
+          } else {
+            buttonClass += isSelected ? " bg-blue-300 border-blue-600" : " bg-white";
+          }
 
-            return (
-                <button key={i} className={buttonClass} onClick={() => handleAnswer(i)}>
-                {option}
-                </button>
-            );
-            })}
+          return (
+            <button 
+              key={i} 
+              className={buttonClass} 
+              onClick={() => handleAnswer(originalIndex)}
+            >
+              {option.text}
+            </button>
+          );
+        })}
 
-        {/* Explanation section - only shows after submission if explanation exists */}
         {submitted && question.explanation && (
           <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-md">
             <p className="font-semibold text-blue-800">Explicación:</p>

@@ -72,7 +72,7 @@ export default function Home() {
               <br />
             </p>
             <p className="text-black mb-4">
-              ¡Todos los quizzes estan listos con las respuestas correctas! (*En teoría*)
+              Las opciones se reordenan aleatoriamente en cada intento.
             </p>
             <p className="text-black mb-4">
               Si crees que alguna respuesta es incorrecta o algun otro problema hazmelo saber por favor.
